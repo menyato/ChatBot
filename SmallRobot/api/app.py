@@ -8,7 +8,7 @@ def home():
     return "Hello"
 
 
-@app.route("/")
+@app.route("/about")
 def about():
     return "Hello ddaq"
 
