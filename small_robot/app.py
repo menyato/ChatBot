@@ -37,6 +37,7 @@ def receive_transcription():
 
 
 if __name__ == "__main__":
-    app.run(port=5001)  # Run the Flask app on a different port
+    # app.run(port=5001)  # Run the Flask app on a different port and as a local host 
+    app.run(debug=False, host='0.0.0.0')
 
 
